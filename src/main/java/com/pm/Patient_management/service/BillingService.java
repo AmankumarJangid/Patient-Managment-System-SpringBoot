@@ -1,6 +1,6 @@
 package com.pm.Patient_management.service;
 
-import com.pm.Patient_management.dto.BillingDto;
+import com.pm.Patient_management.dto.billing.BillingDto;
 import com.pm.Patient_management.entity.enums.BillingStatus;
 import org.springframework.http.ResponseEntity;
 

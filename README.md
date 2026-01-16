@@ -35,3 +35,6 @@ these two generate a modifiable list instead of unmodifiable
         return patients.stream().map(patient -> modelMapper.map(patient, PatientDto.class)).collect(Collectors.toList());
     }
 ```
+
+## Free Open AI Testing API KEYS
+## https://github.com/dan1471/FREE-openai-api-keys

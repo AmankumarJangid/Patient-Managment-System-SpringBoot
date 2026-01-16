@@ -1,7 +1,7 @@
 package com.pm.Patient_management.service;
 
-import com.pm.Patient_management.dto.AddPatientDto;
-import com.pm.Patient_management.dto.PatientDto;
+import com.pm.Patient_management.dto.patient.AddPatientDto;
+import com.pm.Patient_management.dto.patient.PatientDto;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.pm.Patient_management.dto;
+package com.pm.Patient_management.dto.billing;
 
 import com.pm.Patient_management.entity.Patient;
 import com.pm.Patient_management.entity.enums.BillingMethod;

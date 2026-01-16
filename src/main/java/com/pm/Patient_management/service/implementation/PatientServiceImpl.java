@@ -1,7 +1,7 @@
 package com.pm.Patient_management.service.implementation;
 
-import com.pm.Patient_management.dto.AddPatientDto;
-import com.pm.Patient_management.dto.PatientDto;
+import com.pm.Patient_management.dto.patient.AddPatientDto;
+import com.pm.Patient_management.dto.patient.PatientDto;
 import com.pm.Patient_management.entity.Patient;
 import com.pm.Patient_management.repository.PatientRepository;
 import com.pm.Patient_management.service.PatientService;

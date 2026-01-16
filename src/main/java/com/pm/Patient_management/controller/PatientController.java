@@ -1,9 +1,8 @@
 package com.pm.Patient_management.controller;
 
-import com.pm.Patient_management.dto.AddPatientDto;
+import com.pm.Patient_management.dto.patient.AddPatientDto;
 import com.pm.Patient_management.dto.ApiResponse;
-import com.pm.Patient_management.dto.PatientDto;
-import com.pm.Patient_management.entity.Patient;
+import com.pm.Patient_management.dto.patient.PatientDto;
 import com.pm.Patient_management.service.PatientService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -13,9 +12,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Map;
-import java.util.UUID;
 
-@CrossOrigin(origins = "http://localhost:5173")
+
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("patient")

@@ -1,15 +1,15 @@
-package com.pm.Patient_management.dto;
+package com.pm.Patient_management.dto.patient;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.annotation.Nullable;
+import com.pm.Patient_management.entity.enums.Gender;
+import com.pm.Patient_management.entity.enums.PatientStatus;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -45,6 +45,15 @@ public class PatientDto {
     @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate dob;
 
+    private Gender gender;
+
+    private PatientStatus patientStatus;
+
+    private String bloodGroup;
+
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime createdAt;
+
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime updatedAt;
 }
